@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "running ......... "
+
+python retrain_one.py --image_dir ~/flower_photos_rose
+
+python retrain_two.py --image_dir ~/flower_photos_daisy
+

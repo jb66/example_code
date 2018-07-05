@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "running ......... "
+
+for f in *.jpg
+do
+	convert "$f"
+done
+
